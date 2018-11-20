@@ -60,7 +60,7 @@ if args.dataset == 'svhn' and args.model == 'wideresnet':
 np.random.seed(0)
 torch.cuda.manual_seed(args.seed)
 
-print args
+print(args)
 
 # Image Preprocessing
 if args.dataset == 'svhn':
